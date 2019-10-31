@@ -11,6 +11,15 @@ Combine with Cloudwatch event you can tiggered your code (function) automaticall
 
 We use terraform to automate the entire process
 
-Create a module :
+Create a module that contain the following files:
+- [main.tf]() : In which we create resources
+- [variables.tf]() : Conatain variables
+- [outputs.tf]() : Return some informations about after resource creation
+- [stop_ec2.zip]() : Is the package that contain the python script to stop the ec2 instances
+
+Also have an example directory in which we call our module:
+- [main.tf]()
+- [variables.tf]()
+- [outputs.tf]()
 
 
