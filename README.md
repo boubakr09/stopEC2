@@ -5,7 +5,12 @@ Suppose that you are a developper running ec2 instances for test or an organizat
 To do so you have two choices : stopping instances manually or use automation
 
 With AWS Lambda you have the opportunity to use SDKs like python to easily develop applications, deploy code, ...
+Combine with Cloudwatch event you can tiggered your code (function) automatically based on event or sceduled jobs.
 
-# Python
+# Terraform
+
+We use terraform to automate the entire process
+
+Create a module :
 
 
