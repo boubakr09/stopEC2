@@ -22,4 +22,7 @@ Also have an example directory in which we call our module:
 - [variables.tf](https://github.com/boubakr09/stopEC2/blob/master/example/variables.tf)
 - [outputs.tf](https://github.com/boubakr09/stopEC2/blob/master/example/outputs.tf)
 
-
+To test this, go to the example directory and run:
+- terraform init
+- terraform plan
+- terraform apply
